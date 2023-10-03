@@ -17,9 +17,9 @@ export const HeroeCard = ({
 
     const heroeImageUrl = `/assets/heroes/${id}.jpg`
     return (
-        <div className='col'>
+        <div className='col '>
             <div className='row no-gutters'>
-                <div className='col-4'>
+                <div className='col-4 '>
                     <img src={heroeImageUrl} className='card-img' alt={superhero}></img>
                 </div>
                 <div className="col-12">
@@ -31,7 +31,7 @@ export const HeroeCard = ({
                         <p className='card-text'>
                             <smal className='text-muted'>{first_appearance}</smal>
                         </p>
-                        <Link to="/heroe">
+                        <Link to={`/heroe/${id}`}>
                             More info..
                         </Link>
                     </div>
