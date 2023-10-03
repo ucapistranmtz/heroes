@@ -2,7 +2,7 @@
  import { LoginPage } from "../auth/pages/LoginPage"
  
  import {HeroesRoutes} from '../heroes'
- import {Navbar} from "../ui"
+
 export const AppRouter = () => {
   return (
     <>
